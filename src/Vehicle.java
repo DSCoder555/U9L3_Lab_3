@@ -25,4 +25,10 @@ public class Vehicle
   public void setPassengers(int newPassengers){ passengers = newPassengers;}
 
   public void setTollFee(double newFee){ tollFee = newFee;}
+
+  public void printInfo(){
+    System.out.println("License Plate: " + licensePlate);
+    System.out.println("Toll Fee: " + tollFee);
+    System.out.println("Passengers: " + passengers);
+  }
 }
